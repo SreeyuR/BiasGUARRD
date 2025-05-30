@@ -7,6 +7,9 @@
 ```bash
 git clone https://github.com/your-username/biasguarrd-framework.git
 cd biasguarrd-framework
+conda create -n biasguarrd python=3.10 -y
+conda activate biasguarrd
+
 pip install -r requirements.txt
 ```
 Set your OpenAI API key:
