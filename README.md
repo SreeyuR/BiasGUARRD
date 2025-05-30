@@ -14,7 +14,7 @@ pip install -r requirements.txt
 Set your OpenAI API key by opening `api.key` and copy-pasting your OpenAI API key.
 
 ## Usage
-To run the framework on a batch of biased conflict prompts:
+To run the framework on a batch of biased conflict prompts (defaulted):
 
 ```bash
 python mitigation_main.py
@@ -22,7 +22,7 @@ python mitigation_main.py
 
 This will:
 
-1. Load prompts from batch_inputs/halo_effect_inference_may26_real.jsonl
+1. Load prompts from `batch_inputs/affective_framing_inference.jsonl`
 2. Detect bias in each prompt
 3. Apply a dynamic combination of mitigation tools
 4. Return a majority side judgment and explanation across 5 trials.
