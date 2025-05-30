@@ -64,7 +64,7 @@ Overall format:
   }
 }
 ```
-```
+
 2. Save it to `batch_inputs/your_input.jsonl`
 3. On line 253 of `mitigation_main.py`, change `affective_framing_inference.jsonl` to your input file's name with the jsonl extension.
 4. Run the script: `python mitigation_main.py`
