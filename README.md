@@ -11,10 +11,7 @@ conda create -n biasguarrd python=3.10 -y
 conda activate biasguarrd
 pip install -r requirements.txt
 ```
-Set your OpenAI API key:
-```bash
-export OPENAI_API_KEY="sk-..."
-```
+Set your OpenAI API key by opening `api.key` and copy-pasting your OpenAI API key.
 
 ## Usage
 To run the framework on a batch of biased conflict prompts:
