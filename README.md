@@ -41,7 +41,7 @@ This will:
    - `body`: contains prompt to answer
 ```bash
 {
-  "custom_id": "promot-1",
+  "custom_id": "prompt-1",
   "body": {
     "messages": [
       {
