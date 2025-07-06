@@ -2,6 +2,15 @@
 
 **BiasGUARRD** is a multi-agent framework that dynamically detects and mitigates cognitive biases in LLM prompts for interpersonal conflict scenarios. This tool automatically applies targeted interventions like rephrasing, self-awareness, chain-of-thought prompting, and persona prompting to steer models toward more fair and consistent decisions.
 
+## Paper
+
+This repository accompanies our paper:
+
+**BIASGUARRD: Enhancing Fairness and Reliability in LLM Conflict Resolution Through Agentic Debiasing**  
+Accepted to the [ICML 2025 Workshop on Reliable and Responsible Foundation Models (R2-FM)](https://r2-fm.github.io/).
+
+Read the paper on [OpenReview](https://openreview.net/forum?id=LH9jXb4B6a).
+
 ## Installation
 
 ```bash
